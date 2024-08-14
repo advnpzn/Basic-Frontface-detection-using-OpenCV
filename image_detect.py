@@ -38,7 +38,7 @@ k = cv2.waitKey(0)
 if k == ord('s'):
     log.info(str(faces)+"Time : "+ str(time))
     print("logged")
-    cv2.imwrite('aadhavan.png', img)
+    cv2.imwrite('sample.png', img)
     print("Pic saved.s")
 elif k == 27:
     cv2.destroyAllWindows()
